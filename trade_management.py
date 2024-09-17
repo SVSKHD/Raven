@@ -42,9 +42,6 @@ def place_trade(symbol, order_type, volume, price, slippage, comment, stop_loss=
 
 
 
-import MetaTrader5 as mt5
-
-
 def close_all_trades():
     # Initialize connection to MetaTrader 5
     if not mt5.initialize():
